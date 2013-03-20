@@ -60,7 +60,7 @@ var CloudWatch = function(opts) {
 };
 
 // inherit from Amazon
-util.inherits(CloudWatch, amazon.Amazon);
+util.inherits(CloudWatch, amazon.AmazonSignatureV2);
 
 // --------------------------------------------------------------------------------------------------------------------
 // methods we need to implement from awssum.js/amazon.js
