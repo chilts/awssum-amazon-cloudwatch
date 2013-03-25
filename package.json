@@ -1,6 +1,6 @@
 {
     "name" : "awssum-amazon-cloudwatch",
-    "description" : "NodeJS module to talk to Amazon CloudWatch.",
+    "description" : "AwsSum plugin for Amazon CloudWatch.",
     "version" : "1.0.0",
 
     "main" : "awssum-amazon-cloudwatch.js",
